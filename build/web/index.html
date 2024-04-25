@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mani Charity - Making a Difference</title>
+        <style>
+            body {
+                font-family: 'Open Sans', sans-serif;
+                background-color: #f0f0f0;
+                color: #333;
+                margin: 0;
+                padding: 0;
+                line-height: 1.6;
+            }
+
+            .header {
+                background-color: #4CAF50;
+                color: white;
+                padding: 20px;
+                text-align: center;
+            }
+
+            .navbar {
+                display: flex;
+                justify-content: center;
+                background-color: #333;
+            }
+
+            .navbar a {
+                color: white;
+                text-decoration: none;
+                padding: 14px 20px;
+                text-align: center;
+            }
+
+            .navbar a:hover {
+                background-color: #575757;
+            }
+
+            .content {
+                max-width: 900px;
+                margin: 20px auto;
+                padding: 20px;
+                background-color: #ffffff;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .section {
+                background: #f9f9f9;
+                padding: 20px;
+                border: 1px solid #ddd;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+            }
+
+            .section h2 {
+                text-align: center;
+                color: #4CAF50;
+            }
+
+            .section img {
+                max-width: 100%;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+
+            .album {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 20px;
+                padding: 20px;
+            }
+
+            .album img {
+                width: 100%;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                transition: transform 0.2s;
+            }
+
+            .album img:hover {
+                transform: scale(1.05);
+            }
+
+            .donation-form label {
+                display: block;
+                margin: 10px 0 5px;
+                color: black;
+            }
+
+            .donation-form input {
+                width: 100%;
+                padding: 8px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+
+            .donation-form button {
+                display: block;
+                width: 100%;
+                padding: 10px;
+                margin: 10px;
+                background-color: #4CAF50;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            .donation-form button:hover {
+                background-color: #45a049;
+            }
+
+            .footer {
+                background-color: #333;
+                color: white;
+                text-align: center;
+                padding: 20px;
+                margin-top: 20px;
+            }
+            
+            
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Welcome to Mani Charity</h1>
+            <p>Making a Difference, One Donation at a Time</p>
+        </div>
+
+        <div class="navbar">
+            <a href="#about">About Us</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#donate">Donate</a>
+            <a href="#album">Album</a>
+        </div>
+
+        <div class="content">
+            <!-- Hero Section with Image -->
+            <div class="section">
+                <img src="https://demo.zozothemes.com/miion/charity/wp-content/uploads/sites/4/2019/11/learning-1170x694.jpg" alt="Charity Work">
+                <h2>Mani Charity</h2>
+                <p>Mani Charity is dedicated to helping underprivileged children by providing educational resources and support. We believe that every child deserves a chance to succeed, and we're committed to making that a reality through our programs and initiatives.</p>
+            </div>
+
+            <!-- Charity Information -->
+            <div class="section" id="about">
+                <h2>About Mani Charity</h2>
+                <p>Mani Charity was founded with a simple mission: to make a positive impact in the lives of children who need it most. We focus on educational programs, health and wellness initiatives, and community engagement. Our team is passionate about creating opportunities for children to learn and grow.</p>
+            </div>
+
+            <!-- Achievements Section -->
+            <div class="section" id="achievements">
+                <h2>Our Achievements</h2>
+                <ul>
+                    <li>Provided educational resources to over 1,000 children in need</li>
+                    <li>Organized community programs and events for child development</li>
+                    <li>Partnered with local schools to enhance educational opportunities</li>
+                    <li>Raised over $500,000 for various charity projects</li>
+                </ul>
+            </div>
+
+            <!-- Album Section -->
+            <div class="section" id="album">
+                <h2>Photo Album</h2>
+                <div class="album">
+                    <img src="https://www.iet.org.in/wp-content/uploads/2016/02/boy-child-school-learning-education-chalk-numbers-600x400.jpg" alt="Event 1">
+                    <img src="https://www.thelifeyoucansave.org/wp-content/uploads/2023/04/Educate-Girls.png" alt="Event 2">
+                    <img src="https://www.pureonline.org/images/Incoming/a3b97f16-d8f1-4745-8a36-8943663a3194-1024x768.jpg" alt="Event 3">
+                    <img src="https://i2.wp.com/blog.giveindia.org/wp-content/uploads/education.jpg?fit=984%2C656&ssl=1" alt="Event 4">
+                    <img src="https://www.rethakafoundation.org/wp-content/uploads/2022/04/ismail-salad-osman-hajji-dirir-v7FT5ngIEfA-unsplash.jpg" alt="Event 5">
+                    <img src="https://rezavisual.academy/wp-content/uploads/2016/02/charity-wordpress-theme-1.jpg" alt="Event 6">
+                </div>
+            </div>
+
+            <!-- Donation Form -->
+            <div class="section donation-form" id="donate">
+                <h2>Make a Donation</
+                </h2>
+                <form action="/Adv_Java_mini_project/DonateServlet" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="amount">Donation Amount ($):</label>
+                    <input type="number" id="amount" name="amount" required>
+
+                    <button type="submit">Donate Now</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2024 Mani Charity. All rights reserved.</p>
+        </div>
+    </body>
+</html>

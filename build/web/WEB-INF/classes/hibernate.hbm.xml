@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <!-- Map to the Donation table in the database -->
+    <class name="Donation" table="Donation">
+        
+        <!-- Define the primary key (Id) with auto-increment -->
+        <id name="id" type="int">
+            <generator class="identity"/> <!-- Auto-increment strategy for MySQL -->
+        </id>
+
+        <!-- Map other fields to corresponding table columns -->
+        <property name="name" column="name" type="string"/>
+        <property name="email" column="email" type="string"/>
+        <property name="amount" column="amount" type="double"/>
+    </class>
+</hibernate-mapping>
